@@ -23,7 +23,7 @@ public class App extends PApplet {
     @Override
     public void draw() {
         background(0);
-        rect(width / 2, height / 2, 100, 100);
+        circle(width / 2, height / 2, 150);
     }
 
     @Override
