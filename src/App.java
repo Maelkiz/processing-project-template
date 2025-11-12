@@ -17,7 +17,7 @@ public class App extends PApplet {
 
     @Override
     public void setup() {
-        keyRepeatEnabled = true;
+        frameRate(60);
     }
 
     @Override
@@ -28,6 +28,16 @@ public class App extends PApplet {
 
     @Override
     public void keyPressed() {
+
+    }
+
+    @Override
+    public void keyReleased() {
+
+    }
+
+    @Override
+    public void mouseClicked() {
 
     }
 }
