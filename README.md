@@ -1,5 +1,7 @@
 # Processing Template Project
 
+A minimal java project template using the Processing libraries.
+
 ## Setup 
 To ensure the libraries are recognized in Visual Studio Code, add the following to `.vscode/settings.json`:
 ```json
