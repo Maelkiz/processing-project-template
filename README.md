@@ -59,3 +59,9 @@ mvn clean
 ```
 
 ---
+
+## What now?
+
+Where you take it next is up to you. This [repository](https://github.com/Maelkiz/spatial-index-visualizer) is an example of how the template can be adapted to a real project.
+
+---
