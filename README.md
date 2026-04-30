@@ -16,10 +16,8 @@ simple build/run commands.
 
 Before you try to build or run the project, make sure you have:
 
-- Java Development Kit (JDK) 25
+- Java Development Kit (JDK) 17 or newer
 - Apache Maven 3.9 or newer
-
-The project targets Java 25 in `pom.xml`, so older JDK releases will not work.
 
 ---
 
