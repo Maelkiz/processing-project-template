@@ -1,13 +1,11 @@
-/*
- * Documentation: https://processing.org/reference"
- */
+package com.processing.app;
 
 import processing.core.PApplet;
 
 public class App extends PApplet {
     public static void main(String[] args) {
         System.setProperty("sun.java2d.uiScale", "1");
-        PApplet.main("App");
+        PApplet.main("com.processing.app.App");
     }
 
     @Override

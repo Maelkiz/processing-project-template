@@ -1,0 +1,23 @@
+# Maven
+/target/
+
+# Java
+*.class
+*.log
+*.jar
+
+# VS Code
+/.vscode/
+
+# IDEs
+.classpath
+.project
+.settings/
+/.idea/
+*.iml
+
+# Build output
+/bin/
+
+# Local OS files
+.DS_Store

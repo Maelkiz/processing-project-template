@@ -1,19 +1,61 @@
 # Processing Template Project
 
-A minimal java project template using the Processing libraries.
+> A Maven-based Java project template using the Processing libraries.
 
-## Setup 
-To ensure the libraries are recognized in Visual Studio Code, add the following to `.vscode/settings.json`:
-```json
-{
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
-}
+---
+
+## What is this?
+
+This template provides a Maven-based Java project skeleton for building Processing
+sketches with a conventional project structure, dependency management, and
+simple build/run commands.
+
+---
+
+## Prerequisites
+
+Before you try to build or run the project, make sure you have:
+
+- Java Development Kit (JDK) 25
+- Apache Maven 3.9 or newer
+
+The project targets Java 25 in `pom.xml`, so older JDK releases will not work.
+
+---
+
+## Quick Start
+
+To get started clone this repository and `cd` to the project root:
+
+```bash
+git clone https://github.com/Maelkiz/processing-template-project.git
+cd processing-template-project
 ```
 
-## Processing Documentation
-Helpful documentation can be found at: 
-https://processing.org/reference
+This project is configured as a Maven project. Basic commands:
+
+- Build (compile + package):
+
+```bash
+mvn clean package
+```
+
+- Run via Maven (calls the `main` class):
+
+```bash
+mvn exec:java
+```
+
+- Run the packaged JAR produced by the build:
+
+```bash
+java -jar target/processing-app.jar
+```
+
+- Clean build artifacts:
+
+```bash
+mvn clean
+```
+
+---
