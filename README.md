@@ -32,27 +32,27 @@ git clone https://github.com/Maelkiz/processing-template-project.git
 cd processing-template-project
 ```
 
-This project is configured as a Maven project. Basic commands:
+### Basic Maven commands
 
-- Build (compile + package):
+Build (compile + package):
 
 ```bash
 mvn clean package
 ```
 
-- Run via Maven (calls the `main` class):
+Run via Maven (calls the `main` class):
 
 ```bash
 mvn exec:java
 ```
 
-- Run the packaged JAR produced by the build:
+Run the packaged JAR produced by the build:
 
 ```bash
 java -jar target/processing-app.jar
 ```
 
-- Clean build artifacts:
+Clean build artifacts:
 
 ```bash
 mvn clean
